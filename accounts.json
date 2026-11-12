@@ -1,0 +1,1663 @@
+{
+  "accounts": [
+    {
+      "credentials": {
+        "email": "marcel@yahoo.com",
+        "password": "6K7GUxjsAc"
+      },
+      "name": "Marcel",
+      "country": "Romania",
+      "favorite_games": [
+        "Metin",
+        "4Story"
+      ],
+      "maps_completed": "15",
+      "characters": [
+        {
+          "name": "Odysseus Prisco",
+          "profession": "Warrior",
+          "level": "1",
+          "experience": 15
+        },
+        {
+          "name": "Kameron Neppl",
+          "profession": "Mage",
+          "level": "1",
+          "experience": 10
+        },
+        {
+          "name": "Chlarimonde Markert",
+          "profession": "Rogue",
+          "level": "1",
+          "experience": 35
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "genna1951@hotmail.red",
+        "password": "123456"
+      },
+      "name": "Nawra Ortwin",
+      "country": "Turkey",
+      "favorite_games": [
+        "World of Warcraft",
+        "Metin2",
+        "Need for Speed"
+      ],
+      "maps_completed": "3",
+      "characters": [
+        {
+          "name": "Brisco Schaab",
+          "profession": "Warrior",
+          "level": "4",
+          "experience": 21
+        },
+        {
+          "name": "Scarlett Gardon",
+          "profession": "Mage",
+          "level": "7",
+          "experience": 50
+        },
+        {
+          "name": "Miyoko Fei",
+          "profession": "Rogue",
+          "level": "15",
+          "experience": 40
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "mculrad0586@perirh.com",
+        "password": "aTtZWI7SDl"
+      },
+      "name": "Gemma Eusebius",
+      "country": "France",
+      "favorite_games": [
+        "Metin",
+        "4Story"
+      ],
+      "maps_completed": "1",
+      "characters": [
+        {
+          "name": "Fujio Takeshita",
+          "profession": "Warrior",
+          "level": "12",
+          "experience": 15
+        },
+        {
+          "name": "Briareus Prestia",
+          "profession": "Mage",
+          "level": "5",
+          "experience": 10
+        },
+        {
+          "name": "Kame Oda",
+          "profession": "Rogue",
+          "level": "11",
+          "experience": 5
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "kdsinc@o0i.es",
+        "password": "bxSvxYcaoD"
+      },
+      "name": "Grimwald Marciane",
+      "country": "United Kingdom",
+      "favorite_games": [
+        "Metin",
+        "4Story"
+      ],
+      "maps_completed": "20",
+      "characters": [
+        {
+          "name": "Fedele Sama",
+          "profession": "Warrior",
+          "level": "10",
+          "experience": 20
+        },
+        {
+          "name": "Jannik Wriedt",
+          "profession": "Mage",
+          "level": "1",
+          "experience": 0
+        },
+        {
+          "name": "Hisa Hano",
+          "profession": "Rogue",
+          "level": "2",
+          "experience": 20
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "dd55avid@lited.site",
+        "password": "L5PN1Qknrn"
+      },
+      "name": "Sanjiv Bénédicte",
+      "country": "India",
+      "favorite_games": [
+        "Counter Strike 1.6",
+        "GTA V",
+        "Metin 2"
+      ],
+      "maps_completed": "60",
+      "characters": [
+        {
+          "name": "Rina Zanin",
+          "profession": "Warrior",
+          "level": "3",
+          "experience": 4
+        },
+        {
+          "name": "Dyana Inselman",
+          "profession": "Mage",
+          "level": "5",
+          "experience": 10
+        },
+        {
+          "name": "Uysal Abdallah",
+          "profession": "Rogue",
+          "level": "7",
+          "experience": 45
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "troydealbaby@eoooodid.com",
+        "password": "nhnn0HXi8q"
+      },
+      "name": "Praveena Yevheniy",
+      "country": "Romania",
+      "favorite_games": [
+        "Metin 2",
+        "League of Legends"
+      ],
+      "maps_completed": "10",
+      "characters": [
+        {
+          "name": "Silvain Spilker",
+          "profession": "Warrior",
+          "level": "8",
+          "experience": 0
+        },
+        {
+          "name": "Thibaut Goy",
+          "profession": "Mage",
+          "level": "10",
+          "experience": 3
+        },
+        {
+          "name": "Eyup Uner",
+          "profession": "Rogue",
+          "level": "2",
+          "experience": 3
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "al6056@keralaairport.net",
+        "password": "fBfQbuDm8Z"
+      },
+      "name": "Victor Madhuri",
+      "country": "Bulgaria",
+      "favorite_games": [
+        "Lego Lord of the Rings",
+        "Guild Wars 2"
+      ],
+      "maps_completed": "3",
+      "characters": [
+        {
+          "name": "Jaiden Kimmich",
+          "profession": "Warrior",
+          "level": "10",
+          "experience": 1
+        },
+        {
+          "name": "Zain Eiden",
+          "profession": "Mage",
+          "level": "7",
+          "experience": 2
+        },
+        {
+          "name": "Crocefissa Smeriglio",
+          "profession": "Rogue",
+          "level": "11",
+          "experience": 5
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "roschsin@epubp.site",
+        "password": "AtprqBw5np"
+      },
+      "name": "Stuart Dorofei",
+      "country": "Romania",
+      "favorite_games": [
+        "Batman Arkham Knight",
+        "Batman Arkham Asylum"
+      ],
+      "maps_completed": "13",
+      "characters": [
+        {
+          "name": "Fiona Broussard",
+          "profession": "Warrior",
+          "level": "20",
+          "experience": 2
+        },
+        {
+          "name": "Fjodora Schutzman",
+          "profession": "Mage",
+          "level": "15",
+          "experience": 3
+        },
+        {
+          "name": "Shigeru Uno",
+          "profession": "Rogue",
+          "level": "6",
+          "experience": 10
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "andreea.popescu16@outlook.com",
+        "password": "G8GP38g4o5"
+      },
+      "name": "Andreea Popescu",
+      "country": "Romania",
+      "favorite_games": [
+        "League of Legends",
+        "Hades"
+      ],
+      "maps_completed": "5",
+      "characters": [
+        {
+          "name": "Helena Jadeleaf",
+          "profession": "Rogue",
+          "level": "4",
+          "experience": 57
+        },
+        {
+          "name": "Aldric Ambershield",
+          "profession": "Mage",
+          "level": "22",
+          "experience": 62
+        },
+        {
+          "name": "Ulric Greywind",
+          "profession": "Warrior",
+          "level": "13",
+          "experience": 32
+        },
+        {
+          "name": "Wren Duskwalker",
+          "profession": "Rogue",
+          "level": "12",
+          "experience": 48
+        },
+        {
+          "name": "Gwen Underhill",
+          "profession": "Mage",
+          "level": "3",
+          "experience": 92
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "mihai.ionescu44@gmail.com",
+        "password": "JIssDj4PTT"
+      },
+      "name": "Mihai Ionescu",
+      "country": "Romania",
+      "favorite_games": [
+        "Counter Strike 2",
+        "Baldur's Gate 3",
+        "Metin2",
+        "Terraria"
+      ],
+      "maps_completed": "35",
+      "characters": [
+        {
+          "name": "Fenris Brightwater",
+          "profession": "Mage",
+          "level": "4",
+          "experience": 54
+        },
+        {
+          "name": "Gwen Zephyr",
+          "profession": "Warrior",
+          "level": "25",
+          "experience": 76
+        },
+        {
+          "name": "Fenris Moonshadow",
+          "profession": "Rogue",
+          "level": "17",
+          "experience": 33
+        },
+        {
+          "name": "Anika Stormborn",
+          "profession": "Mage",
+          "level": "16",
+          "experience": 65
+        },
+        {
+          "name": "Hakon Zephyr",
+          "profession": "Mage",
+          "level": "1",
+          "experience": 73
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "ioana.dumitru29@stud.acs.upb.ro",
+        "password": "i0d9TH4QgT"
+      },
+      "name": "Ioana Dumitru",
+      "country": "Romania",
+      "favorite_games": [
+        "Rocket League"
+      ],
+      "maps_completed": "44",
+      "characters": [
+        {
+          "name": "Dorian Valerius",
+          "profession": "Mage",
+          "level": "16",
+          "experience": 91
+        },
+        {
+          "name": "Isolde Ironside",
+          "profession": "Rogue",
+          "level": "18",
+          "experience": 51
+        },
+        {
+          "name": "Theron Ravencrest",
+          "profession": "Warrior",
+          "level": "21",
+          "experience": 64
+        },
+        {
+          "name": "Elara Zephyr",
+          "profession": "Mage",
+          "level": "13",
+          "experience": 55
+        },
+        {
+          "name": "Magnus Jadeleaf",
+          "profession": "Warrior",
+          "level": "9",
+          "experience": 1
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "radu.stanciu5@yahoo.com",
+        "password": "P4M9DZH7Fx"
+      },
+      "name": "Radu Stanciu",
+      "country": "Romania",
+      "favorite_games": [
+        "Hollow Knight",
+        "StarCraft II",
+        "Apex Legends",
+        "Red Dead Redemption 2"
+      ],
+      "maps_completed": "51",
+      "characters": [
+        {
+          "name": "Bram Ravencrest",
+          "profession": "Mage",
+          "level": "22",
+          "experience": 4
+        },
+        {
+          "name": "Selene Kingsley",
+          "profession": "Rogue",
+          "level": "15",
+          "experience": 12
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "elena.marin57@icloud.com",
+        "password": "TY9GqC79l9"
+      },
+      "name": "Elena Marin",
+      "country": "Moldova",
+      "favorite_games": [
+        "Metin2",
+        "Red Dead Redemption 2",
+        "Skyrim"
+      ],
+      "maps_completed": "6",
+      "characters": [
+        {
+          "name": "Magnus Wolfsbane",
+          "profession": "Rogue",
+          "level": "14",
+          "experience": 18
+        },
+        {
+          "name": "Cora Duskwalker",
+          "profession": "Mage",
+          "level": "1",
+          "experience": 11
+        },
+        {
+          "name": "Aldric Oakheart",
+          "profession": "Warrior",
+          "level": "19",
+          "experience": 69
+        },
+        {
+          "name": "Freya Thornfield",
+          "profession": "Rogue",
+          "level": "7",
+          "experience": 31
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "lucas.moreau16@proton.me",
+        "password": "cWI9rQWOwj"
+      },
+      "name": "Lucas Moreau",
+      "country": "France",
+      "favorite_games": [
+        "Age of Empires II",
+        "Civilization VI",
+        "Minecraft",
+        "Stardew Valley"
+      ],
+      "maps_completed": "14",
+      "characters": [
+        {
+          "name": "Elara Stormborn",
+          "profession": "Mage",
+          "level": "5",
+          "experience": 76
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "sofia.rossi89@proton.me",
+        "password": "sfAQk7iYY6"
+      },
+      "name": "Sofia Rossi",
+      "country": "Italy",
+      "favorite_games": [
+        "Baldur's Gate 3",
+        "League of Legends"
+      ],
+      "maps_completed": "6",
+      "characters": [
+        {
+          "name": "Yara Coldbrook",
+          "profession": "Mage",
+          "level": "3",
+          "experience": 6
+        },
+        {
+          "name": "Wren Underhill",
+          "profession": "Rogue",
+          "level": "12",
+          "experience": 98
+        },
+        {
+          "name": "Brienne Ashford",
+          "profession": "Warrior",
+          "level": "17",
+          "experience": 60
+        },
+        {
+          "name": "Ulric Valerius",
+          "profession": "Warrior",
+          "level": "10",
+          "experience": 57
+        },
+        {
+          "name": "Ulric Duskwalker",
+          "profession": "Rogue",
+          "level": "4",
+          "experience": 63
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "mateo.fernandez60@proton.me",
+        "password": "NZkjLHnBNv"
+      },
+      "name": "Mateo Fernández",
+      "country": "Spain",
+      "favorite_games": [
+        "Dota 2",
+        "World of Warcraft",
+        "Rocket League",
+        "Guild Wars 2"
+      ],
+      "maps_completed": "11",
+      "characters": [
+        {
+          "name": "Cedric Underhill",
+          "profession": "Rogue",
+          "level": "18",
+          "experience": 6
+        },
+        {
+          "name": "Cora Brightwater",
+          "profession": "Warrior",
+          "level": "25",
+          "experience": 82
+        },
+        {
+          "name": "Magnus Proudmore",
+          "profession": "Mage",
+          "level": "23",
+          "experience": 86
+        },
+        {
+          "name": "Brienne Everhart",
+          "profession": "Rogue",
+          "level": "21",
+          "experience": 67
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "hannah.becker28@stud.acs.upb.ro",
+        "password": "4H59ikQ2ly"
+      },
+      "name": "Hannah Becker",
+      "country": "Germany",
+      "favorite_games": [
+        "Dark Souls III",
+        "Fortnite",
+        "Skyrim",
+        "Elden Ring"
+      ],
+      "maps_completed": "29",
+      "characters": [
+        {
+          "name": "Fenris Yarrow",
+          "profession": "Mage",
+          "level": "14",
+          "experience": 36
+        },
+        {
+          "name": "Dorian Frostmane",
+          "profession": "Rogue",
+          "level": "11",
+          "experience": 66
+        },
+        {
+          "name": "Elara Oakheart",
+          "profession": "Warrior",
+          "level": "4",
+          "experience": 67
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "jakub.nowak68@stud.acs.upb.ro",
+        "password": "r0g2noa9f4"
+      },
+      "name": "Jakub Nowak",
+      "country": "Poland",
+      "favorite_games": [
+        "League of Legends",
+        "Skyrim"
+      ],
+      "maps_completed": "54",
+      "characters": [
+        {
+          "name": "Kael Lightfoot",
+          "profession": "Rogue",
+          "level": "18",
+          "experience": 87
+        },
+        {
+          "name": "Kira Zephyr",
+          "profession": "Mage",
+          "level": "18",
+          "experience": 27
+        },
+        {
+          "name": "Helena Thornfield",
+          "profession": "Warrior",
+          "level": "23",
+          "experience": 35
+        },
+        {
+          "name": "Jarek Yarrow",
+          "profession": "Rogue",
+          "level": "19",
+          "experience": 93
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "emma.jansen28@proton.me",
+        "password": "sKrQJigYqg"
+      },
+      "name": "Emma Jansen",
+      "country": "Netherlands",
+      "favorite_games": [
+        "Rocket League",
+        "Valorant"
+      ],
+      "maps_completed": "32",
+      "characters": [
+        {
+          "name": "Ulric Ironside",
+          "profession": "Warrior",
+          "level": "19",
+          "experience": 8
+        },
+        {
+          "name": "Selene Duskwalker",
+          "profession": "Rogue",
+          "level": "11",
+          "experience": 20
+        },
+        {
+          "name": "Quill Ironside",
+          "profession": "Mage",
+          "level": "3",
+          "experience": 1
+        },
+        {
+          "name": "Anika Brightwater",
+          "profession": "Mage",
+          "level": "25",
+          "experience": 32
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "liam.obrien54@gmail.com",
+        "password": "dgpbthgRJK"
+      },
+      "name": "Liam O'Brien",
+      "country": "Ireland",
+      "favorite_games": [
+        "The Witcher 3",
+        "Hades",
+        "World of Warcraft",
+        "GTA V"
+      ],
+      "maps_completed": "27",
+      "characters": [
+        {
+          "name": "Helena Valerius",
+          "profession": "Mage",
+          "level": "12",
+          "experience": 64
+        },
+        {
+          "name": "Quill Moonshadow",
+          "profession": "Rogue",
+          "level": "10",
+          "experience": 45
+        },
+        {
+          "name": "Daria Wolfsbane",
+          "profession": "Warrior",
+          "level": "23",
+          "experience": 55
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "oliver.smith4@outlook.com",
+        "password": "SvsU9XZ6ht"
+      },
+      "name": "Oliver Smith",
+      "country": "United Kingdom",
+      "favorite_games": [
+        "Civilization VI"
+      ],
+      "maps_completed": "7",
+      "characters": [
+        {
+          "name": "Kael Thornfield",
+          "profession": "Mage",
+          "level": "4",
+          "experience": 15
+        },
+        {
+          "name": "Cedric Everhart",
+          "profession": "Warrior",
+          "level": "17",
+          "experience": 45
+        },
+        {
+          "name": "Mira Underhill",
+          "profession": "Rogue",
+          "level": "21",
+          "experience": 38
+        },
+        {
+          "name": "Brienne Nightingale",
+          "profession": "Warrior",
+          "level": "19",
+          "experience": 16
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "ava.johnson46@hotmail.com",
+        "password": "yypXAQoXil"
+      },
+      "name": "Ava Johnson",
+      "country": "United States",
+      "favorite_games": [
+        "League of Legends"
+      ],
+      "maps_completed": "17",
+      "characters": [
+        {
+          "name": "Isolde Proudmore",
+          "profession": "Warrior",
+          "level": "14",
+          "experience": 33
+        },
+        {
+          "name": "Ulric Everhart",
+          "profession": "Mage",
+          "level": "21",
+          "experience": 75
+        },
+        {
+          "name": "Freya Ambershield",
+          "profession": "Rogue",
+          "level": "6",
+          "experience": 70
+        },
+        {
+          "name": "Gwen Ambershield",
+          "profession": "Warrior",
+          "level": "9",
+          "experience": 43
+        },
+        {
+          "name": "Hakon Yarrow",
+          "profession": "Warrior",
+          "level": "24",
+          "experience": 40
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "noah.tremblay8@icloud.com",
+        "password": "1aOpEdoRG3"
+      },
+      "name": "Noah Tremblay",
+      "country": "Canada",
+      "favorite_games": [
+        "Overwatch 2",
+        "Diablo IV",
+        "Stardew Valley"
+      ],
+      "maps_completed": "53",
+      "characters": [
+        {
+          "name": "Rowan Kingsley",
+          "profession": "Rogue",
+          "level": "7",
+          "experience": 47
+        },
+        {
+          "name": "Wren Oakheart",
+          "profession": "Mage",
+          "level": "21",
+          "experience": 58
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "yuki.tanaka71@stud.acs.upb.ro",
+        "password": "E5YRLtmkOA"
+      },
+      "name": "Yuki Tanaka",
+      "country": "Japan",
+      "favorite_games": [
+        "Apex Legends",
+        "Hollow Knight",
+        "Age of Empires II"
+      ],
+      "maps_completed": "26",
+      "characters": [
+        {
+          "name": "Lyra Crowley",
+          "profession": "Mage",
+          "level": "10",
+          "experience": 47
+        },
+        {
+          "name": "Isolde Wolfsbane",
+          "profession": "Warrior",
+          "level": "9",
+          "experience": 17
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "minjun.kim92@icloud.com",
+        "password": "g5bIn22SLt"
+      },
+      "name": "Min-jun Kim",
+      "country": "South Korea",
+      "favorite_games": [
+        "Hollow Knight",
+        "Valorant"
+      ],
+      "maps_completed": "5",
+      "characters": [
+        {
+          "name": "Jora Wolfsbane",
+          "profession": "Warrior",
+          "level": "13",
+          "experience": 42
+        },
+        {
+          "name": "Jarek Ironside",
+          "profession": "Mage",
+          "level": "10",
+          "experience": 5
+        },
+        {
+          "name": "Leif Valerius",
+          "profession": "Rogue",
+          "level": "7",
+          "experience": 20
+        },
+        {
+          "name": "Selene Jadeleaf",
+          "profession": "Rogue",
+          "level": "18",
+          "experience": 36
+        },
+        {
+          "name": "Wren Everhart",
+          "profession": "Rogue",
+          "level": "13",
+          "experience": 24
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "wei.chen96@icloud.com",
+        "password": "a2MPE8BwZX"
+      },
+      "name": "Wei Chen",
+      "country": "China",
+      "favorite_games": [
+        "Fortnite",
+        "League of Legends"
+      ],
+      "maps_completed": "56",
+      "characters": [
+        {
+          "name": "Helena Quickblade",
+          "profession": "Warrior",
+          "level": "22",
+          "experience": 90
+        },
+        {
+          "name": "Xander Crowley",
+          "profession": "Rogue",
+          "level": "12",
+          "experience": 38
+        },
+        {
+          "name": "Nyra Ravencrest",
+          "profession": "Mage",
+          "level": "5",
+          "experience": 76
+        },
+        {
+          "name": "Nils Hollow",
+          "profession": "Mage",
+          "level": "5",
+          "experience": 13
+        },
+        {
+          "name": "Ulric Proudmore",
+          "profession": "Rogue",
+          "level": "4",
+          "experience": 93
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "aarav.sharma10@hotmail.com",
+        "password": "qNtPhwE6Fh"
+      },
+      "name": "Aarav Sharma",
+      "country": "India",
+      "favorite_games": [
+        "Counter Strike 2",
+        "StarCraft II",
+        "Overwatch 2"
+      ],
+      "maps_completed": "31",
+      "characters": [
+        {
+          "name": "Theron Ironside",
+          "profession": "Rogue",
+          "level": "25",
+          "experience": 84
+        },
+        {
+          "name": "Orin Frostmane",
+          "profession": "Warrior",
+          "level": "11",
+          "experience": 55
+        },
+        {
+          "name": "Gwen Ravencrest",
+          "profession": "Mage",
+          "level": "11",
+          "experience": 41
+        },
+        {
+          "name": "Ulric Frostmane",
+          "profession": "Rogue",
+          "level": "7",
+          "experience": 59
+        },
+        {
+          "name": "Orin Brightwater",
+          "profession": "Mage",
+          "level": "23",
+          "experience": 44
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "gabriel.silva98@stud.acs.upb.ro",
+        "password": "wA1ZLynjCV"
+      },
+      "name": "Gabriel Silva",
+      "country": "Brazil",
+      "favorite_games": [
+        "The Witcher 3"
+      ],
+      "maps_completed": "17",
+      "characters": [
+        {
+          "name": "Cora Ironside",
+          "profession": "Rogue",
+          "level": "5",
+          "experience": 69
+        },
+        {
+          "name": "Rowan Hollow",
+          "profession": "Warrior",
+          "level": "11",
+          "experience": 18
+        },
+        {
+          "name": "Helena Ironside",
+          "profession": "Mage",
+          "level": "10",
+          "experience": 73
+        },
+        {
+          "name": "Dorian Underhill",
+          "profession": "Mage",
+          "level": "13",
+          "experience": 51
+        },
+        {
+          "name": "Brienne Ravencrest",
+          "profession": "Mage",
+          "level": "23",
+          "experience": 42
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "valentina.lopez87@hotmail.com",
+        "password": "vgRX7F6R2O"
+      },
+      "name": "Valentina López",
+      "country": "Argentina",
+      "favorite_games": [
+        "Dota 2",
+        "Guild Wars 2",
+        "Baldur's Gate 3"
+      ],
+      "maps_completed": "46",
+      "characters": [
+        {
+          "name": "Lyra Ashford",
+          "profession": "Rogue",
+          "level": "9",
+          "experience": 71
+        },
+        {
+          "name": "Quill Everhart",
+          "profession": "Warrior",
+          "level": "11",
+          "experience": 74
+        },
+        {
+          "name": "Nils Nightingale",
+          "profession": "Mage",
+          "level": "25",
+          "experience": 60
+        },
+        {
+          "name": "Elara Kingsley",
+          "profession": "Mage",
+          "level": "1",
+          "experience": 4
+        },
+        {
+          "name": "Orin Underhill",
+          "profession": "Rogue",
+          "level": "4",
+          "experience": 84
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "nikolai.petrov35@outlook.com",
+        "password": "bXnYDGrNOx"
+      },
+      "name": "Nikolai Petrov",
+      "country": "Bulgaria",
+      "favorite_games": [
+        "Stardew Valley",
+        "StarCraft II"
+      ],
+      "maps_completed": "0",
+      "characters": [
+        {
+          "name": "Garrick Everhart",
+          "profession": "Rogue",
+          "level": "11",
+          "experience": 28
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "eleni.papadopoulou60@yahoo.com",
+        "password": "MRkTtfKATH"
+      },
+      "name": "Eleni Papadopoulou",
+      "country": "Greece",
+      "favorite_games": [
+        "Dota 2",
+        "Fortnite",
+        "Stardew Valley",
+        "Civilization VI"
+      ],
+      "maps_completed": "32",
+      "characters": [
+        {
+          "name": "Orin Duskwalker",
+          "profession": "Rogue",
+          "level": "16",
+          "experience": 84
+        },
+        {
+          "name": "Vesna Kingsley",
+          "profession": "Warrior",
+          "level": "12",
+          "experience": 40
+        },
+        {
+          "name": "Mira Proudmore",
+          "profession": "Mage",
+          "level": "9",
+          "experience": 62
+        },
+        {
+          "name": "Ulric Ambershield",
+          "profession": "Warrior",
+          "level": "9",
+          "experience": 4
+        },
+        {
+          "name": "Fenris Everhart",
+          "profession": "Mage",
+          "level": "1",
+          "experience": 61
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "mehmet.ylmaz47@outlook.com",
+        "password": "1WDmxrG1Uz"
+      },
+      "name": "Mehmet Yılmaz",
+      "country": "Turkey",
+      "favorite_games": [
+        "Civilization VI"
+      ],
+      "maps_completed": "46",
+      "characters": [
+        {
+          "name": "Gwen Valerius",
+          "profession": "Warrior",
+          "level": "18",
+          "experience": 98
+        },
+        {
+          "name": "Theron Proudmore",
+          "profession": "Rogue",
+          "level": "20",
+          "experience": 11
+        },
+        {
+          "name": "Gwen Quickblade",
+          "profession": "Mage",
+          "level": "20",
+          "experience": 41
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "freja.nielsen63@outlook.com",
+        "password": "QvxleJ3ZlW"
+      },
+      "name": "Freja Nielsen",
+      "country": "Denmark",
+      "favorite_games": [
+        "League of Legends",
+        "GTA V"
+      ],
+      "maps_completed": "15",
+      "characters": [
+        {
+          "name": "Nyra Nightingale",
+          "profession": "Rogue",
+          "level": "17",
+          "experience": 67
+        },
+        {
+          "name": "Ivor Quickblade",
+          "profession": "Mage",
+          "level": "7",
+          "experience": 34
+        },
+        {
+          "name": "Jarek Valerius",
+          "profession": "Warrior",
+          "level": "11",
+          "experience": 46
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "elias.virtanen84@hotmail.com",
+        "password": "INUImjMJTj"
+      },
+      "name": "Elias Virtanen",
+      "country": "Finland",
+      "favorite_games": [
+        "Elden Ring"
+      ],
+      "maps_completed": "50",
+      "characters": [
+        {
+          "name": "Theron Ambershield",
+          "profession": "Warrior",
+          "level": "6",
+          "experience": 17
+        },
+        {
+          "name": "Rowan Ravencrest",
+          "profession": "Rogue",
+          "level": "23",
+          "experience": 45
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "astrid.larsen17@hotmail.com",
+        "password": "klSdWlRjAP"
+      },
+      "name": "Astrid Larsen",
+      "country": "Norway",
+      "favorite_games": [
+        "Metin2",
+        "Stardew Valley",
+        "Counter Strike 2"
+      ],
+      "maps_completed": "29",
+      "characters": [
+        {
+          "name": "Anika Everhart",
+          "profession": "Mage",
+          "level": "11",
+          "experience": 18
+        },
+        {
+          "name": "Gwen Blackwood",
+          "profession": "Warrior",
+          "level": "16",
+          "experience": 0
+        },
+        {
+          "name": "Daria Dunmore",
+          "profession": "Rogue",
+          "level": "12",
+          "experience": 75
+        },
+        {
+          "name": "Quill Kingsley",
+          "profession": "Warrior",
+          "level": "25",
+          "experience": 3
+        },
+        {
+          "name": "Kael Quickblade",
+          "profession": "Rogue",
+          "level": "7",
+          "experience": 11
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "tomas.novak55@icloud.com",
+        "password": "Bm11kpoQ9F"
+      },
+      "name": "Tomás Novák",
+      "country": "Czech Republic",
+      "favorite_games": [
+        "Civilization VI",
+        "Cyberpunk 2077",
+        "GTA V",
+        "Among Us"
+      ],
+      "maps_completed": "23",
+      "characters": [
+        {
+          "name": "Nyra Jadeleaf",
+          "profession": "Mage",
+          "level": "21",
+          "experience": 94
+        },
+        {
+          "name": "Jarek Thornfield",
+          "profession": "Warrior",
+          "level": "16",
+          "experience": 11
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "zsofia.nagy28@icloud.com",
+        "password": "mhWfwTRNSk"
+      },
+      "name": "Zsófia Nagy",
+      "country": "Hungary",
+      "favorite_games": [
+        "Rocket League",
+        "Cyberpunk 2077"
+      ],
+      "maps_completed": "12",
+      "characters": [
+        {
+          "name": "Bram Ashford",
+          "profession": "Warrior",
+          "level": "18",
+          "experience": 18
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "marko.horvat83@icloud.com",
+        "password": "YrsVxzaEHD"
+      },
+      "name": "Marko Horvat",
+      "country": "Croatia",
+      "favorite_games": [
+        "Overwatch 2"
+      ],
+      "maps_completed": "9",
+      "characters": [
+        {
+          "name": "Jarek Hollow",
+          "profession": "Mage",
+          "level": "12",
+          "experience": 58
+        },
+        {
+          "name": "Yara Thornfield",
+          "profession": "Rogue",
+          "level": "21",
+          "experience": 75
+        },
+        {
+          "name": "Daria Duskwalker",
+          "profession": "Warrior",
+          "level": "23",
+          "experience": 85
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "ana.kovacevic72@outlook.com",
+        "password": "Wq9RfDDwI0"
+      },
+      "name": "Ana Kovačević",
+      "country": "Serbia",
+      "favorite_games": [
+        "Terraria"
+      ],
+      "maps_completed": "2",
+      "characters": [
+        {
+          "name": "Eamon Quickblade",
+          "profession": "Rogue",
+          "level": "15",
+          "experience": 72
+        },
+        {
+          "name": "Garrick Moonshadow",
+          "profession": "Warrior",
+          "level": "21",
+          "experience": 73
+        },
+        {
+          "name": "Dorian Thornfield",
+          "profession": "Mage",
+          "level": "16",
+          "experience": 69
+        },
+        {
+          "name": "Brienne Dunmore",
+          "profession": "Mage",
+          "level": "13",
+          "experience": 11
+        },
+        {
+          "name": "Kael Ravencrest",
+          "profession": "Warrior",
+          "level": "9",
+          "experience": 2
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "lukas.gruber6@icloud.com",
+        "password": "eWMHhU925v"
+      },
+      "name": "Lukas Gruber",
+      "country": "Austria",
+      "favorite_games": [
+        "The Witcher 3",
+        "Age of Empires II"
+      ],
+      "maps_completed": "57",
+      "characters": [
+        {
+          "name": "Dorian Whitmore",
+          "profession": "Mage",
+          "level": "8",
+          "experience": 51
+        },
+        {
+          "name": "Petra Quickblade",
+          "profession": "Rogue",
+          "level": "11",
+          "experience": 53
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "chloe.dubois6@hotmail.com",
+        "password": "pMlCmXhLEL"
+      },
+      "name": "Chloé Dubois",
+      "country": "Belgium",
+      "favorite_games": [
+        "Civilization VI",
+        "Dota 2",
+        "Hollow Knight",
+        "GTA V"
+      ],
+      "maps_completed": "50",
+      "characters": [
+        {
+          "name": "Ivor Jadeleaf",
+          "profession": "Mage",
+          "level": "8",
+          "experience": 66
+        },
+        {
+          "name": "Bram Brightwater",
+          "profession": "Warrior",
+          "level": "24",
+          "experience": 74
+        },
+        {
+          "name": "Brienne Lightfoot",
+          "profession": "Rogue",
+          "level": "20",
+          "experience": 66
+        },
+        {
+          "name": "Helena Stormborn",
+          "profession": "Warrior",
+          "level": "12",
+          "experience": 27
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "ines.costa76@gmail.com",
+        "password": "JkDzZhZgZA"
+      },
+      "name": "Inês Costa",
+      "country": "Portugal",
+      "favorite_games": [
+        "StarCraft II",
+        "Overwatch 2",
+        "Fortnite"
+      ],
+      "maps_completed": "33",
+      "characters": [
+        {
+          "name": "Rowan Duskwalker",
+          "profession": "Warrior",
+          "level": "12",
+          "experience": 10
+        },
+        {
+          "name": "Quill Frostmane",
+          "profession": "Rogue",
+          "level": "2",
+          "experience": 27
+        },
+        {
+          "name": "Jarek Dunmore",
+          "profession": "Mage",
+          "level": "15",
+          "experience": 70
+        },
+        {
+          "name": "Cedric Lightfoot",
+          "profession": "Warrior",
+          "level": "23",
+          "experience": 59
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "erik.johansson66@icloud.com",
+        "password": "7c97529mPP"
+      },
+      "name": "Erik Johansson",
+      "country": "Sweden",
+      "favorite_games": [
+        "Elden Ring"
+      ],
+      "maps_completed": "13",
+      "characters": [
+        {
+          "name": "Aldric Jadeleaf",
+          "profession": "Warrior",
+          "level": "20",
+          "experience": 82
+        },
+        {
+          "name": "Cedric Proudmore",
+          "profession": "Mage",
+          "level": "9",
+          "experience": 9
+        },
+        {
+          "name": "Isolde Frostmane",
+          "profession": "Rogue",
+          "level": "18",
+          "experience": 81
+        },
+        {
+          "name": "Hakon Stormborn",
+          "profession": "Warrior",
+          "level": "18",
+          "experience": 30
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "olga.shevchenko64@stud.acs.upb.ro",
+        "password": "dIwoIzDfpc"
+      },
+      "name": "Olga Shevchenko",
+      "country": "Ukraine",
+      "favorite_games": [
+        "Stardew Valley",
+        "Counter Strike 2",
+        "GTA V",
+        "FIFA 23"
+      ],
+      "maps_completed": "39",
+      "characters": [
+        {
+          "name": "Lyra Frostmane",
+          "profession": "Mage",
+          "level": "8",
+          "experience": 21
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "kwame.mensah72@yahoo.com",
+        "password": "GWvzrPPkDf"
+      },
+      "name": "Kwame Mensah",
+      "country": "Ghana",
+      "favorite_games": [
+        "Civilization VI"
+      ],
+      "maps_completed": "48",
+      "characters": [
+        {
+          "name": "Ivor Stormborn",
+          "profession": "Mage",
+          "level": "17",
+          "experience": 99
+        }
+      ]
+    },
+    {
+      "credentials": {
+        "email": "amira.haddad32@stud.acs.upb.ro",
+        "password": "0E3SjRZulF"
+      },
+      "name": "Amira Haddad",
+      "country": "Egypt",
+      "favorite_games": [
+        "Rocket League",
+        "Cyberpunk 2077",
+        "FIFA 23",
+        "Terraria"
+      ],
+      "maps_completed": "21",
+      "characters": [
+        {
+          "name": "Gwen Lightfoot",
+          "profession": "Warrior",
+          "level": "3",
+          "experience": 95
+        },
+        {
+          "name": "Leif Ashford",
+          "profession": "Rogue",
+          "level": "21",
+          "experience": 32
+        },
+        {
+          "name": "Petra Dunmore",
+          "profession": "Mage",
+          "level": "13",
+          "experience": 31
+        },
+        {
+          "name": "Theron Thornfield",
+          "profession": "Mage",
+          "level": "22",
+          "experience": 73
+        },
+        {
+          "name": "Kira Frostmane",
+          "profession": "Warrior",
+          "level": "10",
+          "experience": 95
+        }
+      ]
+    }
+  ]
+}

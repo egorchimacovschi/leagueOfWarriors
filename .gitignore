@@ -1,0 +1,6 @@
+out/
+*.class
+lib/
+.DS_Store
+*.swp
+*.swo

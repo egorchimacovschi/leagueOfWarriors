@@ -1,6 +1,10 @@
-out/
-*.class
-lib/
+# Maven
+target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
 .DS_Store
-*.swp
-*.swo

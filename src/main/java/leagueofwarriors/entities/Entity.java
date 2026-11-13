@@ -39,6 +39,14 @@ public abstract class Entity implements Battle {
         return life;
     }
 
+    public int getMaxLife() {
+        return maxLife;
+    }
+
+    public int getMaxMana() {
+        return maxMana;
+    }
+
     public boolean isAlive() {
         return life > 0;
     }

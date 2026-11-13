@@ -51,31 +51,33 @@ public class Grid extends ArrayList<ArrayList<Cell>> {
         }
     }
 
-    public void goNorth() throws ImpossibleMove {
-        move(playerX, playerY - 1);
+    public CellEntityType goNorth() throws ImpossibleMove {
+        return move(playerX, playerY - 1);
     }
 
-    public void goSouth() throws ImpossibleMove {
-        move(playerX, playerY + 1);
+    public CellEntityType goSouth() throws ImpossibleMove {
+        return move(playerX, playerY + 1);
     }
 
-    public void goWest() throws ImpossibleMove {
-        move(playerX - 1, playerY);
+    public CellEntityType goWest() throws ImpossibleMove {
+        return move(playerX - 1, playerY);
     }
 
-    public void goEast() throws ImpossibleMove {
-        move(playerX + 1, playerY);
+    public CellEntityType goEast() throws ImpossibleMove {
+        return move(playerX + 1, playerY);
     }
 
-    private void move(int newX, int newY) throws ImpossibleMove {
+    private CellEntityType move(int newX, int newY) throws ImpossibleMove {
         if (newY < 0 || newY >= size() || newX < 0 || newX >= get(newY).size()) {
             throw new ImpossibleMove("Can't move off the map");
         }
+        CellEntityType previousType = get(newY).get(newX).getType();
         get(playerY).get(playerX).setType(CellEntityType.VOID);
         get(newY).get(newX).setType(CellEntityType.PLAYER);
         get(newY).get(newX).markVisited();
         playerX = newX;
         playerY = newY;
+        return previousType;
     }
 
     public void display() {

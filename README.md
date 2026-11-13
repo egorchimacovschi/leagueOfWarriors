@@ -85,7 +85,6 @@ All classes have a 50% chance to double the damage they deal and a 50% chance to
 
 A JSON array of accounts:
 
-<div align="left">
 ```json
 [
   {
@@ -108,7 +107,6 @@ A JSON array of accounts:
   }
 ]
 ```
-</div>
 
 `favoriteGames`, `mapsCompleted` and `characters` are optional. `class` must be `Warrior`, `Mage` or `Rogue`.
 

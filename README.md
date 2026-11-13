@@ -4,114 +4,133 @@
 
 **A terminal-based RPG engine in Java — object-oriented from the ground up.**
 
-[![Java](https://img.shields.io/badge/Java-21-ED8B00?logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![Maven](https://img.shields.io/badge/Build-Maven-C71A36?logo=apachemaven&logoColor=white)](https://maven.apache.org/)
-[![org.json](https://img.shields.io/badge/JSON-org.json-blue)](https://mvnrepository.com/artifact/org.json/json)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/status-in%20development-yellow)]()
+# League of Warriors
 
-</div>
+A command-line text-adventure game written in Java, built for the POO (OOP) homework "Tema - Partea 1". You log in to an account, pick one of its characters, and explore a randomly generated map, fighting enemies with melee attacks and elemental spells until you find the portal.
 
----
+## Features
 
-Players authenticate into an account, choose a character — **Warrior**,
-**Mage**, or **Rogue**, each with distinct stats and an elemental immunity —
-and explore a randomly generated grid map. Every cell hides an encounter: a
-turn-based battle, a sanctuary, or a portal to the next level. Built without
-a framework, so every design decision — the class hierarchy, the interfaces,
-the exception handling — is deliberate and visible.
+- Account login against a JSON file (`accounts.json`), with multiple characters per account
+- Three character classes: Warrior, Mage, Rogue, each with a main attribute, two secondary attributes and one elemental immunity
+- Randomly generated maps (3-10 cells per side) with enemies, sanctuaries, a portal and a start cell
+- Turn-based combat: melee attacks and Fire / Ice / Earth spells that cost mana
+- Sanctuaries that fully restore life and mana
+- Experience and levelling
+- Progress (maps completed, characters) saved back to `accounts.json` when the game ends
+- Invalid commands and off-map moves are reported without crashing the game
 
-## 📖 Contents
+## Requirements
 
-- [Demo](#-demo)
-- [Design highlights](#-design-highlights)
-- [Tech stack](#-tech-stack)
-- [Getting started](#-getting-started)
-- [Project structure](#-project-structure)
-- [Status](#-status)
-- [Roadmap](#-roadmap)
+- Java 21
+- Maven 3.x
 
-## 🎮 Demo
+## Build
 
 ```
-Comanda (NORTH, SOUTH, WEST, EAST, QUIT): EAST
-Ai intalnit un inamic! Inamic: viata 80, mana 70
-
---- Tura 1 ---  Tu: viata 100, mana 100
-1. Atac obisnuit   2. Abilitate
-Alege: 2
-  1. Fire  - damage 20, mana 15
-  2. Ice   - damage 15, mana 10
-Alege abilitatea: 1
-Folosesti Fire: 10 (atacul tau) + 20 (abilitatea) = 30 damage.
-```
-
-## 🧩 Design highlights
-
-| Concept | Where it shows up |
-|---|---|
-| **Abstraction & polymorphism** | `Battle` interface, implemented identically by every `Character` subclass and `Enemy` — the combat loop never checks *what* it's fighting |
-| **Inheritance** | `Entity` → `Character` → `Warrior` / `Mage` / `Rogue`; `Spell` → `Fire` / `Ice` / `Earth` |
-| **Encapsulation** | Account credentials are private, exposed only through accessors |
-| **Defensive programming** | Every user input is validated; malformed commands and illegal moves raise `InvalidCommandException` / `ImpossibleMove` and are recovered from, never crash the session |
-| **Collections** | `ArrayList` for characters & spell inventories, `SortedSet` for alphabetized favorite games, `Grid extends ArrayList<ArrayList<Cell>>` for the map |
-| **Serialization** | Accounts and characters (de)serialized from `accounts.json` via `org.json` |
-
-## 🛠 Tech stack
-
-<div align="center">
-
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Maven](https://img.shields.io/badge/-Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-
-</div>
-
-## 🚀 Getting started
-
-```bash
-mvn compile
-mvn exec:java
-```
-
-Or build a standalone runnable jar:
-
-```bash
 mvn package
+```
+
+This produces a self-contained jar (dependencies bundled with the Maven Shade plugin) at `target/league-of-warriors.jar`.
+
+## Run
+
+Run from the project root, because `accounts.json` is read from the current working directory:
+
+```
 java -jar target/league-of-warriors.jar
 ```
 
-## 📂 Project structure
+## How to play
+
+Log in with an email and password from `accounts.json`, then choose a character by its number.
+
+Map symbols:
+
+| Symbol | Meaning |
+|--------|---------|
+| `P` | You |
+| `.` | Empty cell |
+| `E` | Enemy |
+| `S` | Sanctuary |
+| `O` | Portal (reach it to win) |
+
+Commands on the map:
+
+| Command | Effect |
+|---------|--------|
+| `north`, `south`, `west`, `east` | Move one cell |
+| `map` | Redraw the map |
+| `exit` | Save and quit |
+
+Walking onto an enemy starts a battle. Each turn, choose one of:
+
+| Action | Effect |
+|--------|--------|
+| `attack` | Melee attack |
+| `fire`, `ice`, `earth` | Cast that spell (costs mana; blocked if the enemy is immune) |
+
+Enemies can dodge melee attacks (50% chance) and each one is randomly immune to some elements, so a turn can have no effect. Defeating an enemy gives experience. If your life reaches zero the game ends.
+
+## Character classes
+
+| Class | Main attribute (raises damage) | Secondary attributes (reduce damage taken) | Immune to |
+|-------|-------------------------------|--------------------------------------------|-----------|
+| Warrior | Strength | Charisma, Dexterity | Fire |
+| Mage | Charisma | Strength, Dexterity | Ice |
+| Rogue | Dexterity | Strength, Charisma | Earth |
+
+All classes have a 50% chance to double the damage they deal and a 50% chance to halve the damage they receive.
+
+## accounts.json format
+
+A JSON array of accounts:
+
+```json
+[
+  {
+    "credentials": { "email": "marcel@yahoo.com", "password": "6K7GUxjsAc" },
+    "name": "Marcel",
+    "country": "Romania",
+    "favoriteGames": ["Metin", "4Story"],
+    "mapsCompleted": 15,
+    "characters": [
+      {
+        "class": "Warrior",
+        "name": "Odysseus Prisco",
+        "maxMana": 20,
+        "maxLife": 100,
+        "strength": 8,
+        "charisma": 3,
+        "dexterity": 4
+      }
+    ]
+  }
+]
+```
+
+`favoriteGames`, `mapsCompleted` and `characters` are optional. `class` must be `Warrior`, `Mage` or `Rogue`.
+
+## Project structure
 
 ```
-src/main/java/leagueofwarriors/
-├── account/    # Account, Credentials
-├── entities/   # Battle, Entity, Character, Warrior, Mage, Rogue, Enemy
-├── game/       # Game, InvalidCommandException
-├── io/         # JsonInput
-├── map/        # CellEntityType, Cell, Grid, ImpossibleMove
-├── spells/     # Spell, Fire, Ice, Earth
-└── Test.java   # entry point
+LeagueOfWarriors/
+├── accounts.json
+├── pom.xml
+├── README.md
+└── src/main/java/leagueofwarriors/
+    ├── Test.java                  entry point
+    ├── account/                   Account, Account.Information, Credentials
+    ├── entities/                  Battle, Entity, Character, Warrior, Mage, Rogue, Enemy
+    ├── game/                      Game, InvalidCommandException
+    ├── io/                        JsonInput (reads accounts.json with org.json)
+    ├── map/                       CellEntityType, Cell, Grid, ImpossibleMove
+    └── spells/                    Spell, Fire, Ice, Earth
 ```
 
-## ✅ Status
+## Design notes
 
-- [ ] Spells — `Spell`, `Fire`, `Ice`, `Earth`
-- [ ] Entities — `Battle`, `Entity`, `Character`, `Warrior`, `Mage`, `Rogue`, `Enemy`
-- [ ] Accounts — `Credentials`, `Account`, `Account.Information`, JSON reading
-- [ ] Map — `CellEntityType`, `Cell`, `Grid`, `ImpossibleMove`
-- [ ] Game loop — `Game`, exception handling, `Test`
-
-## 🗺 Roadmap
-
-- Persist game progress to JSON (save/resume)
-- Inventory & potion system
-- Multiple enemy types + boss fight
-- Difficulty levels
-- Leaderboard (`Comparable`/`Comparator`, streams)
-- Phase 2: GUI built on design patterns (MVC/Observer)
-
----
-
-<div align="center">
-<sub>Built by <a href="https://github.com/egorchimacovschi">Egor Chimacovschi</a></sub>
-</div>
+- `Entity` implements the `Battle` interface; `receiveDamage` and `getDamage` are left abstract so every class defines its own combat rules.
+- Elemental immunity is checked with `instanceof` on the spell type, so each element is its own `Spell` subclass.
+- `Grid` extends `ArrayList<ArrayList<Cell>>`, has a private constructor and is created through `Grid.generateRandom()`.
+- `InvalidCommandException` and `ImpossibleMove` are checked exceptions, caught in `Game` so bad input never crashes the game.
+- Game logic currently reads and writes the console directly. Part II of the assignment (adding a UI with design patterns) will need that pulled out behind an interface.

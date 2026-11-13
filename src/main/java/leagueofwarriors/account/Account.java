@@ -36,6 +36,10 @@ public class Account {
         mapsCompleted += 1;
     }
 
+    public void setMapsCompleted(int mapsCompleted) {
+        this.mapsCompleted = mapsCompleted;
+    }
+
     public static class Information {
         private final Credentials credentials;
         private final SortedSet<String> favouriteGames;
